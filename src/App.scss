@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  color: green !important;
+}
+
+h1.test {
+  color: blue;
+}
+
+@import './scss/components/Header.scss';
+@import './scss/components/Product.scss';
+@import './scss/components/RecentProducts.scss';
+@import './scss/pages/HomePage.scss';

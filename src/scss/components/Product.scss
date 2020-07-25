@@ -1,0 +1,13 @@
+.product {
+  width: calc(100% / 3);
+  padding: 15px;
+
+  &__img {
+    width: 100%;
+  }
+  
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

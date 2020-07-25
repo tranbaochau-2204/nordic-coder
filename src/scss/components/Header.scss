@@ -1,0 +1,26 @@
+.main-header {
+  display: flex;
+  align-items: center;
+  padding: 10px 30px;
+  width: 100%;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  flex-grow: 2;
+  &-list {
+    display: flex;
+  }
+
+  &-link {
+    padding: 5px 20px;
+    text-transform: uppercase;
+  }
+}
+

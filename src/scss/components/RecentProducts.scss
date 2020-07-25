@@ -1,0 +1,17 @@
+.recent-products {
+  .product {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 15px 0;
+
+    &__img {
+      width: 40%;
+      padding-right: 10px;
+    }
+
+    &-info {
+      width: 60%;
+    }
+  }
+}
